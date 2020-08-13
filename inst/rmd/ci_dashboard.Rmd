@@ -1,0 +1,129 @@
+---
+title: "BDVERSE"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: flatly
+---
+<center> <h1>CI DASHBOARD</h1> </center>
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+Row
+-------------------------------------
+    
+### bdverse
+
+![Level 0 CI](https://github.com/bd-R/bdverse/workflows/Level%200%20CI/badge.svg)
+![Level 1 CI](https://github.com/bd-R/bdverse/workflows/Level%201%20CI/badge.svg)
+![tic](https://github.com/bd-R/bdverse/workflows/tic/badge.svg)
+
+```{r}
+```
+    
+### bdutilities
+
+![Level 0 CI](https://github.com/bd-R/bdutilities/workflows/Level%200%20CI/badge.svg)
+![Level 1 CI](https://github.com/bd-R/bdutilities/workflows/Level%201%20CI/badge.svg)
+![tic](https://github.com/bd-R/bdutilities/workflows/tic/badge.svg)
+
+
+```{r}
+
+```
+
+Row
+-------------------------------------
+
+### bdDwC
+
+![Level 0 CI](https://github.com/bd-R/bdDwC/workflows/Level%200%20CI/badge.svg)
+![Level 1 CI](https://github.com/bd-R/bdDwC/workflows/Level%201%20CI/badge.svg)
+![tic](https://github.com/bd-R/bdDwC/workflows/tic/badge.svg)
+    
+```{r}
+
+```
+    
+### bdchecks
+
+![Level 0 CI](https://github.com/bd-R/bdchecks/workflows/Level%200%20CI/badge.svg)
+![Level 1 CI](https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg)
+![tic](https://github.com/bd-R/bdchecks/workflows/tic/badge.svg)
+
+```{r}
+
+```
+   
+Row
+-------------------------------------
+    
+### bdutilities.app
+
+![Level 0 CI](https://github.com/bd-R/bdutilities.app/workflows/Level%200%20CI/badge.svg)
+![Level 1 CI](https://github.com/bd-R/bdutilities.app/workflows/Level%201%20CI/badge.svg)
+    
+```{r}
+
+```
+    
+### bddwc.app
+
+![Level 1 CI](https://github.com/bd-R/bddwc.app/workflows/Level%201%20CI/badge.svg)
+
+```{r}
+
+```
+
+### bdchecks.app
+
+![Level 1 CI](https://github.com/bd-R/bdchecks.app/workflows/Level%201%20CI/badge.svg)
+    
+```{r}
+
+```
+    
+### bdclean
+
+![Level 1 CI](https://github.com/bd-R/bdclean/workflows/Level%201%20CI/badge.svg)
+
+```{r}
+
+```
+
+
+Row 
+-------------------------------------
+    
+### Package
+
+bdchecks 
+
+```{r}
+```
+   
+Row {.tabset .tabset-fade}
+-------------------------------------
+   
+### Level 0
+
+![Level 0 CI](https://github.com/bd-R/bdchecks/workflows/Level%200%20CI/badge.svg)
+
+```{r}
+```   
+ 
+### Level 1
+
+![Level 1 CI](https://github.com/bd-R/bdchecks/workflows/Level%201%20CI/badge.svg)
+
+```{r}
+```
+
+### tic
+
+![tic](https://github.com/bd-R/bdchecks/workflows/tic/badge.svg)
+    
+```{r}
+```
