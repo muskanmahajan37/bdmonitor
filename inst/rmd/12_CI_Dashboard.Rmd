@@ -1,0 +1,121 @@
+---
+title: "12 CI Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: column
+    vertical_layout: fill
+---
+
+<center> <h1>CI DASHBOARD</h1> </center>
+<center>
+<button onClick="window.location.reload();">Refresh Page</button>
+</center>
+
+<center>
+<button onclick="window.location.href='https://github.com/sunn-e/bddummy/actions';">
+Take me to Github Actions of bddummy
+</button>
+</center>
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+bddummy
+=====================================  
+Row
+-------------------------------------
+    
+### Windows
+    
+#### ![Win-Mas-Mas](https://github.com/sunn-e/bddummy/workflows/Win-Mas-Mas/badge.svg?branch=master)
+#### ![Win-Dev-Mas](https://github.com/sunn-e/bddummy/workflows/Win-Dev-Mas/badge.svg)
+#### ![Win-Dev-Dev](https://github.com/sunn-e/bddummy/workflows/Win-Dev-Dev/badge.svg)
+
+```{r}
+```
+ 
+### MacOS
+
+#### ![Mac-Mas-Mas](https://github.com/sunn-e/bddummy/workflows/Mac-Mas-Mas/badge.svg?branch=master)
+
+#### ![Mac-Dev-Mas](https://github.com/sunn-e/bddummy/workflows/Mac-Dev-Mas/badge.svg?branch=dev) 
+
+#### ![Mac-Dev-Dev](https://github.com/sunn-e/bddummy/workflows/Mac-Dev-Dev/badge.svg?branch=dev) 
+    
+```{r}
+``` 
+
+Row
+-------------------------------------
+    
+### Ubuntu
+    
+#### ![Ubu-Mas-Mas](https://github.com/sunn-e/bddummy/workflows/Ubu-Mas-Mas/badge.svg)
+#### ![Ubu-Dev-Mas](https://github.com/sunn-e/bddummy/workflows/Ubu-Dev-Mas/badge.svg?branch=dev)
+#### ![Ubu-Dev-Dev](https://github.com/sunn-e/bddummy/workflows/Ubu-Dev-Dev/badge.svg?branch=dev)
+
+```{r}
+```
+    
+### Multi CI
+
+#### ![Multi-CI-tic-Mas-Mas](https://github.com/sunn-e/bddummy/workflows/Multi-CI-tic-Mas-Mas/badge.svg)
+#### ![Multi-CI-tic-Dev-Mas](https://github.com/sunn-e/bddummy/workflows/Multi-CI-tic-Dev-Mas/badge.svg?branch=dev)
+#### ![Multi-CI-tidyverse-Mas-Mas](https://github.com/sunn-e/bddummy/workflows/Multi-CI-tidyverse-Mas-Mas/badge.svg?branch=master)
+
+```{r}
+```
+
+
+Row {.tabset .tabset-fade}
+-------------------------------------
+   
+### 2
+
+```{r}
+```   
+ 
+### 1
+    
+```{r}
+```
+
+
+
+other package 
+=====================================     
+   
+Row {data-height=600}
+-------------------------------------
+
+### Chart 1
+
+```{r}
+```
+
+Row {data-height=400}
+-------------------------------------
+   
+### Chart 2
+
+```{r}
+```   
+    
+### Chart 3
+
+```{r}
+```
+
+Row {.tabset .tabset-fade}
+-------------------------------------
+   
+### 2
+
+```{r}
+```   
+ 
+### 1
+    
+```{r}
+```

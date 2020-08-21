@@ -7,6 +7,7 @@ output:
     theme: flatly
 ---
 <center> <h1>CI DASHBOARD</h1> </center>
+<button onClick="window.location.reload();">Refresh Page</button>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
